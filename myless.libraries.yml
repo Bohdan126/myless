@@ -3,6 +3,8 @@ framework:
     theme:
       css/style.css: {}
       libraries/slick/slick/slick.css: {}
+      libraries/owlcarousel/dist/assets/owl.carousel.css: {}
+      libraries/owlcarousel/dist/assets/owl.theme.default.min.css: {}
   js:
     bootstrap/js/affix.js: {}
     bootstrap/js/alert.js: {}
@@ -18,5 +20,6 @@ framework:
     bootstrap/js/transition.js: {}
     js/front.js: {}
     libraries/slick/slick/slick.min.js: {minified: true}
+    libraries/owlcarousel/dist/owl.carousel.min.js: {minified: true}
   dependencies:
     - core/jquery
