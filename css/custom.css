@@ -1,3 +1,7 @@
+body {
+  margin-top: 0;
+}
+
 .main-container.container-fluid > .row > .col-sm-12 {
   padding: 0;
 }
@@ -38,6 +42,7 @@
 
 .view-articles-block-slider .views-field-title {
   padding: 35px 0;
+  text-transform: uppercase;
 }
 
 .view-articles-block-slider .views-field-title a {
@@ -79,4 +84,29 @@
 
 .view-articles-block-slider .owl-dots .owl-dot.active {
   opacity: 1;
+}
+
+/* Taxonomy Block */
+.view-taxonomy-block {
+  width: 70%;
+  margin-left: 25%;
+}
+
+.view-taxonomy-block .views-col {
+  position: relative;
+  width: 16% !important;
+  margin: 20px 10px;
+}
+
+.view-taxonomy-block .views-field-name a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin-top: -25px;
+  background-color: rgba(0,0,0,.5);
+  padding: 12px 0;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
 }
