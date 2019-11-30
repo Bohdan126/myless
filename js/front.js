@@ -2,26 +2,14 @@
   Drupal.behaviors.drupalBookOwlCarousel = {
     attach: function (context, settings) {
       $('.view-articles-block-slider .view-content').owlCarousel({
-        items:4,
+        items:1,
         loop:true,
         margin:10,
-        autoplay:true,
+        autoplay:false,
         autoplayTimeout:1000,
         autoplayHoverPause:true,
         responsiveClass:true,
-        responsive:{
-          0: {
-            items: 1
-          },
-          600:{
-            items: 2
-          },
-          1000:{
-            items: 3
-          }
-        }
       });
-      $('.view-articles-block-slider .view-content').addClass('owl-carousel');
 
       $('.view-basic-page-block-slider .view-content').owlCarousel({
         loop:true,
@@ -39,9 +27,9 @@
           }
         }
       })
+      $('.view-articles-block-slider, .view-basic-page-block-slider').find('.view-content').addClass('owl-carousel');
     }
   };
-  $('.view-basic-page-block-slider .view-content').addClass('owl-carousel');
 
 })(jQuery);
 

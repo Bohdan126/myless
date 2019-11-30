@@ -2,6 +2,7 @@ framework:
   css:
     theme:
       css/style.css: {}
+      css/custom.css: {}
       libraries/slick/slick/slick.css: {}
       libraries/owlcarousel/dist/assets/owl.carousel.css: {}
       libraries/owlcarousel/dist/assets/owl.theme.default.min.css: {}

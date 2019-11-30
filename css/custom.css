@@ -1,0 +1,82 @@
+.main-container.container-fluid > .row > .col-sm-12 {
+  padding: 0;
+}
+
+/* Slider */
+.view-articles-block-slider .owl-stage-outer,
+.view-articles-block-slider .owl-stage,
+.view-articles-block-slider .owl-item {
+  height: 250px;
+}
+
+.view-articles-block-slider .views-field-field-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.view-articles-block-slider .views-row {
+  padding: 0 30px;
+  text-align: center;
+}
+
+/* Піднімаємо поля над картинкою */
+.view-articles-block-slider .views-field-title,
+.view-articles-block-slider .views-field-body,
+.view-articles-block-slider .views-field-view-node {
+  position: relative;
+  z-index: 2;
+}
+
+.view-articles-block-slider .views-field-body,
+.view-articles-block-slider .views-field-view-node {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.view-articles-block-slider .views-field-title {
+  padding: 35px 0;
+}
+
+.view-articles-block-slider .views-field-title a {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.view-articles-block-slider .views-field-body {
+  margin-right: 5px;
+  color: #fff;
+}
+
+.view-articles-block-slider .views-field-field-image .field-content {
+  display: flex;
+  height: 100%;
+}
+
+/* Пропорційно розтягує картинку по контейнеру */
+.view-articles-block-slider .views-field-field-image .field-content img {
+  object-fit: cover;
+}
+
+.view-articles-block-slider .owl-dots {
+  position: absolute;
+  bottom: 20px;
+  right: 10%;
+}
+
+.view-articles-block-slider .owl-dots .owl-dot {
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: .5;
+}
+
+.view-articles-block-slider .owl-dots .owl-dot.active {
+  opacity: 1;
+}
