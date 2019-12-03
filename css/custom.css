@@ -110,3 +110,15 @@ body {
   font-size: 18px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 845px) {
+  .view-taxonomy-block .views-col {
+    width: 40% !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .view-taxonomy-block .views-col {
+    width: 70% !important;
+  }
+}
