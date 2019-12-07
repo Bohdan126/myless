@@ -122,3 +122,30 @@ body {
     width: 70% !important;
   }
 }
+
+/* Basic page block slider */
+.view-basic-page-block-slider .owl-loaded {
+  position: relative;
+}
+
+.view-basic-page-block-slider .disabled span {
+  visibility: hidden;
+}
+
+.view-basic-page-block-slider .owl-prev span,
+.view-basic-page-block-slider .owl-next span {
+  font-size: 50px;
+  color: rgba(39,52,70,0.71);
+}
+
+.view-basic-page-block-slider .owl-loaded .owl-prev {
+  position: absolute;
+  top: 30%;
+  left: -3%;
+}
+
+.view-basic-page-block-slider .owl-loaded .owl-next {
+  position: absolute;
+  top: 30%;
+  right: -3%;
+}
