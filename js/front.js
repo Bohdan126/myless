@@ -14,19 +14,23 @@
       $('.view-basic-page-block-slider .view-content').owlCarousel({
         loop:true,
         margin:10,
-        nav:true,
+        responsiveClass:true,
         responsive:{
           0:{
-            items:1
+            items:2,
+            nav:true
           },
           600:{
-            items:3
+            items:4,
+            nav:true
           },
           1000:{
-            items:5
+            items:5,
+            nav:true,
+            loop:false
           }
         }
-      })
+      });
       $('.view-articles-block-slider, .view-basic-page-block-slider').find('.view-content').addClass('owl-carousel');
     }
   };
