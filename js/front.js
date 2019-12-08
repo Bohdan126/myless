@@ -15,6 +15,7 @@
         loop:true,
         margin:10,
         responsiveClass:true,
+        dots: false,
         responsive:{
           0:{
             items:2,
