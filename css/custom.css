@@ -55,16 +55,19 @@ body {
 .view-articles-block-slider .views-field-body {
   margin-right: 5px;
   color: #fff;
+  max-width: 73%;
+  max-height: 9rem;
+}
+
+@media (max-width: 952px) {
+  .view-articles-block-slider .views-field-body {
+    overflow: hidden;
+  }
 }
 
 .view-articles-block-slider .views-field-field-image .field-content {
   display: flex;
   height: 100%;
-}
-
-/* Пропорційно розтягує картинку по контейнеру */
-.view-articles-block-slider .views-field-field-image .field-content img {
-  object-fit: cover;
 }
 
 .view-articles-block-slider .owl-dots {
