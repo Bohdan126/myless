@@ -87,40 +87,31 @@ body {
 }
 
 /* Taxonomy Block */
-.view-taxonomy-block {
-  width: 70%;
-  margin-left: 25%;
+.view-taxonomy-block .views-row {
+  margin-bottom: 25px;
 }
 
-.view-taxonomy-block .views-col {
-  position: relative;
-  width: 16% !important;
-  margin: 20px 10px;
-}
-
-.view-taxonomy-block .views-field-name a {
+.view-taxonomy-block .views-field-name .field-content {
   position: absolute;
   left: 0;
   right: 0;
   top: 50%;
   margin-top: -25px;
   background-color: rgba(0,0,0,.5);
-  padding: 12px 0;
+  padding: 0 15px;
   text-align: center;
   font-size: 18px;
   text-transform: uppercase;
+  background-clip: content-box;
 }
 
-@media screen and (max-width: 845px) {
-  .view-taxonomy-block .views-col {
-    width: 40% !important;
-  }
+.view-taxonomy-block .views-field-name a {
+  padding: 8px 15px;
+  display: block;
 }
 
-@media screen and (max-width: 400px) {
-  .view-taxonomy-block .views-col {
-    width: 70% !important;
-  }
+.view-taxonomy-block img {
+  margin: auto;
 }
 
 /* Basic page block slider */
