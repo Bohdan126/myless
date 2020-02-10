@@ -167,9 +167,19 @@ body {
 }
 
 .region-navigation {
-  display: inline-flex;
+  display: flex;
+  width: 100%;
 }
 
 .block-views-exposed-filter-blocksearch-block-page-1 {
   padding-top: 1rem;
+  margin-left: 30px;
+}
+
+.region-navigation {
+  padding: 0 75px;
+}
+
+#block-useraccountmenu {
+  margin-left: auto;
 }
