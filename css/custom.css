@@ -214,3 +214,19 @@ a.dropdown-toggle {
     width: 800px;
   }
 }
+
+.btn {
+  border-radius: 0 4px 4px 0;
+}
+
+#edit-search-api-fulltext {
+  border-radius: 4px 0 0 4px;
+}
+
+#edit-submit-search-block {
+  font-size: 0;
+  background: #20b2aa url(../images/menu-search.svg) center no-repeat;
+  background-size: 20px;
+  width: 34px;
+  height: 34px;
+}
