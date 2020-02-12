@@ -178,8 +178,39 @@ body {
 
 .region-navigation {
   padding: 0 75px;
+  /* ефект зменшення падінгів, ще треба буде на медії запросі змінити width
+  width: 1600px;
+  margin: auto; */
 }
 
 #block-useraccountmenu {
   margin-left: auto;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+a.dropdown-toggle {
+  text-transform: uppercase;
+}
+
+.caret {
+  border-top: 6px dashed;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+@media (max-width: 1200px) {
+  .region-navigation {
+    width: 1020px;
+    margin: auto;
+    padding: unset;
+  }
+}
+
+@media (max-width: 990px) {
+  .region-navigation {
+    width: 800px;
+  }
 }
