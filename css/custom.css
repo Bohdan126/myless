@@ -204,15 +204,15 @@ body {
     flex-wrap: wrap;
   }
   #block-mainnavigation {
-    flex: 0 0 50%;
+    flex: 1 1 50%;
   }
   .block-views-exposed-filter-blocksearch-block-page-1 {
-    flex: 0 0 100%;
+    flex: 1 1 100%;
     order: 3;
     margin: 0;
   }
   #block-useraccountmenu {
-    flex: 0 0 50%;
+    flex: 1 1 50%;
     order: 2;
   }
   .menu--account {
