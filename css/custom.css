@@ -166,21 +166,62 @@ body {
   align-items: center;
 }
 
-.region-navigation {
-  display: flex;
-  width: 100%;
-}
-
 .block-views-exposed-filter-blocksearch-block-page-1 {
   padding-top: 1rem;
   margin-left: 30px;
 }
 
 .region-navigation {
-  padding: 0 75px;
-  /* ефект зменшення падінгів, ще треба буде на медії запросі змінити width
+  display: flex;
   width: 1600px;
-  margin: auto; */
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .region-navigation {
+    width: 1020px;
+    margin: auto;
+    padding: unset;
+  }
+}
+
+@media (max-width: 990px) {
+  .region-navigation {
+    width: 800px;
+  }
+}
+
+.navbar-header {
+  margin: 0 !important;
+  /* запитати чого без important не робить*/
+}
+
+@media (max-width: 767px) {
+  .navbar-header {
+    height: 150px;
+  }
+  .region-navigation {
+    flex-wrap: wrap;
+  }
+  #block-mainnavigation {
+    flex: 0 0 50%;
+  }
+  .block-views-exposed-filter-blocksearch-block-page-1 {
+    flex: 0 0 100%;
+    order: 3;
+    margin: 0;
+  }
+  #block-useraccountmenu {
+    flex: 0 0 50%;
+    order: 2;
+  }
+  .menu--account {
+    float: right;
+  }
+}
+
+.form-item-search-api-fulltext {
+  width: 100%;
 }
 
 #block-useraccountmenu {
@@ -201,20 +242,6 @@ a.dropdown-toggle {
   border-left: 5px solid transparent;
 }
 
-@media (max-width: 1200px) {
-  .region-navigation {
-    width: 1020px;
-    margin: auto;
-    padding: unset;
-  }
-}
-
-@media (max-width: 990px) {
-  .region-navigation {
-    width: 800px;
-  }
-}
-
 .btn {
   border-radius: 0 4px 4px 0;
 }
@@ -229,4 +256,9 @@ a.dropdown-toggle {
   background-size: 20px;
   width: 34px;
   height: 34px;
+}
+
+.form-actions {
+  position: absolute;
+  right: -12px;
 }
