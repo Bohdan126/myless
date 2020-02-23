@@ -218,6 +218,58 @@ body {
   .menu--account {
     float: right;
   }
+  /* Main menu */
+  #block-mainnavigation {
+    flex: 1 1 85%;
+  }
+  #block-useraccountmenu {
+    flex: 1 1 15%;
+    order: 2;
+  }
+  .navbar-nav .open .dropdown-menu {
+    position: absolute;
+    float: unset;
+    width: 100%;
+    margin: unset;
+    background-color: #fff;
+    box-shadow: unset;
+    margin-left: 40px;
+    padding: 25px 20px 25px 15px;
+    font-size: 1.7rem;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li {
+    padding-bottom: 10px;
+    color: #a5a3a3;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #a5a3a3;
+    font-family: serif;
+    font-size: 2rem;
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li:first-child > a {
+    color: #696969;
+    font-size: 3rem;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-family: inherit;
+  }
+
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover {
+    background-color: unset;
+  }
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+  }
+
+  a[aria-expanded="true"] span {
+    transform: rotate(180deg);
+  }
 }
 
 .form-item-search-api-fulltext {
