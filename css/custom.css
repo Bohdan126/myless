@@ -220,10 +220,10 @@ body {
   }
   /* Main menu */
   #block-mainnavigation {
-    flex: 1 1 85%;
+    flex: 1 1 75%;
   }
   #block-useraccountmenu {
-    flex: 1 1 15%;
+    flex: 1 1 25%;
     order: 2;
   }
   .navbar-nav .open .dropdown-menu {
@@ -232,10 +232,10 @@ body {
     width: 100%;
     margin: unset;
     background-color: #fff;
-    box-shadow: unset;
     margin-left: 40px;
     padding: 25px 20px 25px 15px;
     font-size: 1.7rem;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
   }
 
   .navbar-default .navbar-nav .open .dropdown-menu > li {
@@ -257,13 +257,14 @@ body {
     font-family: inherit;
   }
 
-  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover {
+  .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .active > a{
     background-color: unset;
   }
+
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     color: #fff;
   }
-  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .active > a {
     color: #fff;
   }
 
